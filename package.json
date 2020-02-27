@@ -1,0 +1,30 @@
+{
+  "name": "js-basics-practice",
+  "version": "1.0.0",
+  "description": "Some practise of JS",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/tw-baseline-exam/js-basics-practice.git"
+  },
+  "keywords": [
+    "String",
+    "Array",
+    "Collecttion",
+    "ES6",
+    "Practice"
+  ],
+  "author": "Jinghua Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/tw-baseline-exam/js-basics-practice/issues"
+  },
+  "homepage": "https://gitlab.com/tw-baseline-exam/js-basics-practice#readme"
+}
