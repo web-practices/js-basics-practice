@@ -1,14 +1,14 @@
 {
   "name": "js-basics-practice",
   "version": "1.0.0",
-  "description": "Some practise of JS",
+  "description": "Some practice of JS",
   "main": "index.js",
   "dependencies": {
     "jasmine": "^3.5.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "npm test"
+    "test": "jasmine spec/*.js"
   },
   "repository": {
     "type": "git",
