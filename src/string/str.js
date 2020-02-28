@@ -10,8 +10,43 @@ function isInclude(originStr, specificStr) {
   // Need to be implemented
 }
 
+function getIndexOfStr(originStr, str) {
+  // Need to be implemented
+}
+
+function replaceStr(originStr, str, newValue) {
+  // Need to be implemented
+}
+
+function extractStr(originStr, firstIndex, endIndex) {
+  // Need to be implemented
+}
+
+function splitStr(originStr, str) {
+  // Need to be implemented
+}
+
+function lowercase(str) {
+  // Need to be implemented
+}
+
+function uppercase(str) {
+  // Need to be implemented
+}
+
+function removeSpace(str) {
+  // Need to be implemented
+}
+
 module.exports = {
   getCharByIndex,
   joinStrings,
-  isInclude
+  isInclude,
+  getIndexOfStr,
+  replaceStr,
+  extractStr,
+  splitStr,
+  lowercase,
+  uppercase,
+  removeSpace
 };
