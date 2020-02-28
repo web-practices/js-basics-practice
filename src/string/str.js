@@ -1,41 +1,41 @@
 function getCharByIndex(str, index) {
-  // Need to be implemented
+  return str.charAt(index);
 }
 
 function joinStrings(first, second) {
-  // Need to be implemented
+  return first.concat(second);
 }
 
 function isInclude(originStr, specificStr) {
-  // Need to be implemented
+  return originStr.includes(specificStr);
 }
 
 function getIndexOfStr(originStr, str) {
-  // Need to be implemented
+  return originStr.indexOf(str);
 }
 
 function replaceStr(originStr, str, newValue) {
-  // Need to be implemented
+  return originStr.replace(str, newValue);
 }
 
 function extractStr(originStr, firstIndex, endIndex) {
-  // Need to be implemented
+  return originStr.slice(firstIndex, endIndex);
 }
 
 function splitStr(originStr, str) {
-  // Need to be implemented
+  return originStr.split(str);
 }
 
 function lowercase(str) {
-  // Need to be implemented
+  return str.toLowerCase();
 }
 
 function uppercase(str) {
-  // Need to be implemented
+  return str.toUpperCase();
 }
 
 function removeSpace(str) {
-  // Need to be implemented
+  return str.trim();
 }
 
 module.exports = {
