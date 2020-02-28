@@ -1,58 +1,53 @@
 function joinArrays(arr1, arr2) {
-  return arr1.concat(arr2);
+  // Need to be implemented
 }
 
 function checkAdult(arr, age) {
-  return arr.every((age) => age >= 18);
+  // Need to be implemented
 }
 
 function findAdult(arr, age) {
-  return arr.find((age) => age >= 18);
+  // Need to be implemented
 }
 
 function convertArrToStr(arr, str) {
-  return arr.join(str);
+  // Need to be implemented
 }
 
 function removeLastEle(arr) {
-  arr.pop();
-  return arr;
+  // Need to be implemented
 }
 
 function addNewItem(arr, item) {
-  arr.push(item);
-  return arr;
+  // Need to be implemented
 }
 
 function removeFirstItem(arr) {
-  arr.shift();
-  return arr;
+  // Need to be implemented
 }
 
 function addNewItemToBeginArr(arr, item) {
-  arr.unshift(item);
-  return arr;
+  // Need to be implemented
 }
 
 function reverseOrder(arr) {
-  return arr.reverse();
+  // Need to be implemented
 }
 
 function selectElements(arr, start, end) {
-  return arr.slice(start, end);
+  // Need to be implemented
 }
 
 function addItemsToArray(arr, index, howmany, item) {
-  arr.splice(index, howmany, item);
-  return arr;
+  // Need to be implemented
 }
 
 function sortASC(arr) {
-  return arr.sort((a, b) => a - b);
+  // Need to be implemented
 }
 
 function sortDESC(arr) {
-  return arr.sort((a, b) => b - a);
+  // Need to be implemented
 }
 
 module.exports = {
