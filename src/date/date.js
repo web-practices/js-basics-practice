@@ -1,21 +1,21 @@
 function getDayOfMonth(dateStr) {
-  // Need to be implemented
+  return new Date(dateStr).getDate();
 }
 
 function getDayOfWeek(dateStr) {
-  // Need to be implemented
+  return new Date(dateStr).getDay();
 }
 
 function getYear(dateStr) {
-  // Need to be implemented
+  return new Date(dateStr).getFullYear();
 }
 
 function getMonth(dateStr) {
-  // Need to be implemented
+  return new Date(dateStr).getMonth();
 }
 
 function getMilliseconds(dateStr) {
-  // Need to be implemented
+  return new Date(dateStr).getTime();
 }
 
 export { getDayOfMonth, getDayOfWeek, getYear, getMonth, getMilliseconds };
