@@ -55,7 +55,7 @@ function sortDESC(arr) {
   return arr.sort((a, b) => b - a);
 }
 
-module.exports = {
+export {
   joinArrays,
   checkAdult,
   findAdult,
