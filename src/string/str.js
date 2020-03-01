@@ -38,7 +38,7 @@ function removeSpace(str) {
   // Need to be implemented
 }
 
-module.exports = {
+export {
   getCharByIndex,
   joinStrings,
   isInclude,

@@ -50,7 +50,7 @@ function sortDESC(arr) {
   // Need to be implemented
 }
 
-module.exports = {
+export {
   joinArrays,
   checkAdult,
   findAdult,
