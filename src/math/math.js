@@ -1,25 +1,25 @@
 function upwardNumber(num) {
-  // Need to be implemented
+  return Math.ceil(num);
 }
 
 function downwardNumber(num) {
-  // Need to be implemented
+  return Math.floor(num);
 }
 
 function roundNumber(num) {
-  // Need to be implemented
+  return Math.round(num);
 }
 
 function random(startNum, endNum) {
-  // Need to be implemented
+  return Math.round(Math.random() * (endNum - startNum));
 }
 
 function minNumber(arr) {
-  // Need to be implemented
+  return Math.min(...arr);
 }
 
 function maxNumber(arr) {
-  // Need to be implemented
+  return Math.max(...arr);
 }
 
 export {
