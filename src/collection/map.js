@@ -14,10 +14,4 @@ function getOneClassScoreByASC(collection) {
   // Need to be implemented
 }
 
-export {
-  doubleItem,
-  doubleEvenItem,
-  covertToCharArray,
-  getOneClassScoreByASC,
-  countItems
-};
+export { doubleItem, doubleEvenItem, covertToCharArray, getOneClassScoreByASC };
