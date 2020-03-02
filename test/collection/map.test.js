@@ -2,8 +2,7 @@ import {
   doubleItem,
   doubleEvenItem,
   covertToCharArray,
-  getOneClassScoreByASC,
-  countItems
+  getOneClassScoreByASC
 } from "../../src/collection/map.js";
 
 describe("Map Practis Test", function() {

@@ -17,10 +17,4 @@ function getOneClassScoreByASC(collection) {
     .sort((a, b) => a - b);
 }
 
-export {
-  doubleItem,
-  doubleEvenItem,
-  covertToCharArray,
-  getOneClassScoreByASC,
-  countItems
-};
+export { doubleItem, doubleEvenItem, covertToCharArray, getOneClassScoreByASC };
