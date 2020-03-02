@@ -14,9 +14,14 @@ function getUnionOfcollections(collection1, collection2) {
   // Need to be implemented
 }
 
+function countItems(collection) {
+  // Need to be implemented
+}
+
 export {
   getAllEvens,
   getAllIncrementEvens,
   getIntersectionOfcollections,
-  getUnionOfcollections
+  getUnionOfcollections,
+  countItems
 };
