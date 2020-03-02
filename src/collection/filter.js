@@ -18,7 +18,11 @@ function getUnionOfcollections(collection1, collection2) {
 }
 
 function countItems(collection) {
-  // Need to be implemented
+  let count = {};
+  new Set(collection).forEach((item) => {
+    count[item] = collection.filter((ele) => ele == item).length;
+  });
+  return count;
 }
 
 export {
