@@ -2,7 +2,8 @@ import {
   getAllEvens,
   getAllIncrementEvens,
   getIntersectionOfcollections,
-  getUnionOfcollections
+  getUnionOfcollections,
+  countItems
 } from "../../src/collection/filter.js";
 
 describe("Filter collection Practice Test", function() {
@@ -29,5 +30,25 @@ describe("Filter collection Practice Test", function() {
     let input2 = [5, 78, 28, 19, 23];
     let output = getUnionOfcollections(input1, input2);
     expect(output).toEqual([10, 27, 28, 19, 5, 78, 23]);
+  });
+
+  it("Count every item in array", () => {
+    let input = [
+      "a",
+      "b",
+      "c",
+      "d",
+      "d",
+      "e",
+      "a",
+      "b",
+      "c",
+      "e",
+      "e",
+      "e",
+      "a"
+    ];
+    let output = countItems(input);
+    expect(output).toEqual({ a: 3, b: 2, c: 2, d: 2, e: 4 });
   });
 });
