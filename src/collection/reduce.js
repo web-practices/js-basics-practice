@@ -1,21 +1,29 @@
 function getMaxNumber(collction) {
-  // Need to be implemented
+  return collction.reduce((a, b) => (a > b ? a : b));
 }
 
 function isSameCollection(collction1, collction2) {
-  // Need to be implemented
+  if (collction1.length != collction2.length) {
+    return false;
+  }
+
+  return collction1.reduce(
+    (result, curr, index) => (result ? curr === collction2[index] : false),
+    true
+  );
 }
 
 function sum(collction) {
-  // Need to be implemented
+  return collction.reduce((sum, curr) => sum + curr);
 }
 
 function computeAverage(collction) {
-  // Need to be implemented
+  return collction.reduce((result, curr) => result + curr) / collction.length;
 }
 
 function lastEven(collction) {
-  // Need to be implemented
+  let even = collction.reduce((even, curr) => (curr % 2 == 0 ? curr : even));
+  return even % 2 != 0 ? null : even;
 }
 
 export { getMaxNumber, isSameCollection, computeAverage, sum, lastEven };
