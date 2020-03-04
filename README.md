@@ -61,8 +61,8 @@ npm install
 * **运行单个文件测试：**
 
   ```bash
-  jast spec/文件名称.js
-  例如：jast test/arr.test.js
+  jest spec/文件名称.js
+  例如：jest test/arr.test.js
   ```
 
 #### 2. 如果自己还不具备完成该程序的知识，哪里可以学习？
