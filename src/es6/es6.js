@@ -1,33 +1,39 @@
 function flatArray(arr) {
-  // Need to be implemented
+  return arr.flat();
 }
 
 function aggregateArray(arr) {
-  // Need to be implemented
+  return arr.flatMap((item) => [[item * 2]]);
 }
 
 function getEnumerableProperties(obj) {
-  // Need to be implemented
+  return Object.keys(obj);
 }
 
 function removeDuplicateItems(arr) {
-  // Need to be implemented
+  return [...new Set(arr)];
 }
 
 function removeDuplicateChar(str) {
-  // Need to be implemented
+  return [...new Set(str)].join("");
 }
 
 function addItemToSet(set, item) {
-  // Need to be implemented
+  return set.add(item);
 }
 
 function removeItemToSet(set, item) {
-  // Need to be implemented
+  set.delete(item);
+  return set;
 }
 
 function countItems(arr) {
-  // Need to be implemented
+  let map = new Map();
+  new Set(arr).forEach((item) => {
+    let size = arr.filter((ele) => ele === item).length;
+    map.set(item, size);
+  });
+  return map;
 }
 
 export {
