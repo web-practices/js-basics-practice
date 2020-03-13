@@ -21,7 +21,7 @@
 #### Step 1： 将该项目Clone到您的本地。
 
 ```bash
-git clone https://gitlab.com/tw-baseline-exam/take-out-food.git
+https://gitlab.com/tw-baseline-exam/js-basics-practice.git
 ```
 
 #### Step 2：安装[Node.js](https://nodejs.org/en/)
@@ -61,7 +61,7 @@ npm install
 * **运行单个文件测试：**
 
   ```bash
-  jest spec/文件名称.js
+  jest test/文件名称.js
   例如：jest test/arr.test.js
   ```
 
